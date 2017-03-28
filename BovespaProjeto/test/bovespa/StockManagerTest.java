@@ -10,7 +10,7 @@ public class StockManagerTest {
 	@Test
 	public void loadStocksTest() throws IOException {
 		StockManager stockManager = new StockManager();
-		stockManager.loadStocks("Z:/programacao/3 ano/ESTD.txt");
+		Stock[] stocks = stockManager.loadStocks("Z:/programacao/3 ano/ESTD/COTAHIST_A2016.txt");
 		
 		
 	}
